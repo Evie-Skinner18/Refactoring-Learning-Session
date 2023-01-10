@@ -1,8 +1,8 @@
 // Task: Rename word to something better.
-const renameABadVariable = (word) => {
+const renameABadVariable = (cheese) => {
     const thing = ' '
 
-    return word.includes(thing)
+    return cheese.includes(thing)
 }
 
 module.exports = {renameABadVariable}

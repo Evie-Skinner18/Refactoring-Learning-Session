@@ -1,5 +1,9 @@
 # Always Green Refactoring
 
+TODO:
+change source of the npm packages in package.lock. Generate a new one. The current one has a DVLA package source in it 
+and it's preventing npm i from working
+
 > Exercises to practice refactoring without breaking tests.  
 
 Run the tests with `make test` from the directory of the exercise you're trying. They will run until a test fails. When they do **undo until the tests were last passing.** This should be only a single change.
